@@ -5,7 +5,7 @@ user=input("stone / paper / scissor ? ")
 if user in options:
     while True:
         if user==choice:
-            print("It's s draw..!")
+            print("It's a draw..!")
             break
         elif user=="stone" and choice=="scissor" or \
              user=="scissor" and choice=="paper" or \
